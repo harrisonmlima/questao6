@@ -1,0 +1,7 @@
+version: '3'
+services:
+  dotnet:
+    image: harrisonlima/conversao-peso:v1
+    command: "dotnet ConversaoPeso.Web.dll"
+    ports:
+      - 80:80

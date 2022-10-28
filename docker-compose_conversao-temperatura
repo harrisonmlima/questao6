@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  conversao-temperatura:
+    image: harrisonlima/conversao-temperatura:v1
+    command: "server.js"
+    ports:
+      - 8080:8080
+
